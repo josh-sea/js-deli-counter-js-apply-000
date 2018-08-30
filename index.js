@@ -21,3 +21,13 @@ function currentLine(line) {
       return "The line is currently: " + line.join(', ')
     }
   }
+    var number = 0;
+  function takeANumberAlternative (array){
+    number++
+    array.push(number)
+  }
+  
+  takeANumberAlternative() => you are number 1 
+  takeANumberAlternative() => you are number 2
+  nowServing =>currently serving 1
+  takeANumberAlternative => you are number 3 
